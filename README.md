@@ -1,3 +1,58 @@
+
+
+
+
+Microserviços - Utilizam um banco de dados. Uma aplicação onde as suas funcionalidades são separadas em projetos menores que, apesar de interligados, são independentes.
+Dentro da pasta src, o NestJS possui três tipos de arquivos principais: Modules, controllers e services.
+`
+$ npm i -g@nestjs/cli
+$ nest new folder_name
+$ npm run start:dev
+`
+http://localhost:3000/
+dist/ - conversor ts para js, node apenas entende js
+node_modules/ - dependências
+ctrl+shift+p >preferences: Open User Settings
+app.controller.ts - rotas para a plicação
+app.service.ts - funcionalidades gerais
+Extensão Prisma
+`
+$ npm i prisma -D
+$ npm i @prisma/client
+$ npx prisma init --datasource-provider SQLite
+$ npx prisma migrate dev
+$ npx prisma studio
+$ npm i class-validator class-transformer
+`
+lá em baixo, no CRLF, muda para LF
+
+
+Design Software antes de entrar com a programação.
+Geralmente inicia criando um banco de dados.
+infra/ tudo que se é externo da aplicação, banco de dados, API, http
+undefined: valor sem nada (sem existencia)
+null: valor vazio (com existêcia)
+tsconfig.json
+	"strict": true,
+	"strictNullChecks": true,
+	"strictPropertyInitialization": false,
+jest.config.ts - jest of package.json
+npm run test
+repositories/ intermediario de comunicação de banco e app
+https://martinfowler.com/microservices/
+DTO - Data Transfer Object
+ctrl+shift+p >TypeScript: Restart TS Server
+https://app.rocketseat.com.br/
+Para adicionarmos uma camada de proteção no gerenciamento dos nossos dados, utilizaremos getters e setters na nossa classe Notification. Como eles ajudam nessa proteção?
+Os getters e setters permitem que a gente busque e configure dados por meio de métodos definidos, podendo assim aplicar validações e outras proteções em vez de simplesmente aceitar os valores repassados.
+O que é o conceito Value Object?
+Uma forma de agregar validações e outras funcionalidades no momento da definição de um campo.
+Qual a vantagem de utilizar in-memory database?
+Trabalhar com os dados no mesmo padrão e formato do banco de dados em produção, porém mantendo os dados apenas em memória. Assim, evita a dependência de terceiros nos testes (banco de dados) e também do uso de mocks.
+Mapper:  mapeamento de dados a partir de uma conversão na forma de acesso a esses dados para um formato conhecido pelo alvo.
+
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
