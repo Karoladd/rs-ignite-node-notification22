@@ -126,21 +126,6 @@ Uma forma de agregar validações e outras funcionalidades no momento da defini�
 Trabalhar com os dados no mesmo padrão e formato do banco de dados em produção, porém mantendo os dados apenas em memória. Assim, evita a dependência de terceiros nos testes (banco de dados) e também do uso de mocks.
 - O que é Mapper? Mapeamento de dados a partir de uma conversão na forma de acesso a esses dados para um formato conhecido pelo alvo.
 
-START - PIP
-- create folder: note
-- pip install pandas tk PyInstaller
-- change path variables 
-- pyinstaller index.py
-  * build/ dist/ index.spec
-- App: build/ dist/ note/ index.spec
-- dist - index/index.exe
-
-PATH VARIABLES
-- create folder in download
-- alter path util/download.py
-- alter path util/rename.py
-- alter index.py
-
 PYTHON
 - Extension to run in VSCode: ESLint and Prisma
 
