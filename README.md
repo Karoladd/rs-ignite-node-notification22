@@ -126,7 +126,7 @@ Uma forma de agregar validações e outras funcionalidades no momento da defini�
 Trabalhar com os dados no mesmo padrão e formato do banco de dados em produção, porém mantendo os dados apenas em memória. Assim, evita a dependência de terceiros nos testes (banco de dados) e também do uso de mocks.
 - O que é Mapper? Mapeamento de dados a partir de uma conversão na forma de acesso a esses dados para um formato conhecido pelo alvo.
 
-PYTHON
+NESTJS
 - Extension to run in VSCode: ESLint and Prisma
 
 Links Usefull:
